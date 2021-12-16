@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>CRYPTOCURRENCY QUIZ GAME</title>   
+    
+</head>
+<body>
+    <!-- Start Button -->
+
+    <div class="start_btn"><button>INVEST</button></div>
+
+    <!-- Rules -->
+
+    <div class="info_box">
+        <div class="info_title">
+            <span>CRYPTOCURRENCY QUIZ GAME RULES: </span>
+        </div>
+        <div class="info_list">
+            <div class="info">I. You have <span>30 seconds </span> to answer each question.</div>
+            <div class="info">II. Your answers cannot be changed once selected.</div>  
+            <div class="info">III. Exiting during the quiz or after submitting an icorrect answer is forbidden, unless you feel compelled to cheat, in which case, you may refresh to start over with your newfound crypto knowledge.</div>
+            <div class="info">IV. Points will be earned for each correct answer.</div>
+            <div class="info">V. You will not receive free crypto as a reward for getting all the answers correct - or will you?</div>   
+        </div>
+        <div class="buttons">
+            <button class="quit">CASH OUT</button>
+            <button class="restart">I'M IN!</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">CRYPTOCURRENCY QUIZ GAME</div>
+            <div class="timer">
+                <div class="time_left_txt">TIME:</div>
+                <div class="timer_sec"></div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <span>What was one of the earliest forms of electronic cash?</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>Ethereum</span>
+                    <div class="icon tick"><i class="fas fa-chart-line"></i></div>
+                </div>
+                <div class="option">
+                    <span>Bitcoin</span>
+                    <div class="icon cross"><i class="fas fa-arrow-down fa-flip-vertical"></i></div>
+                </div>
+                <div class="option">
+                    <span>DigiCash</span>
+                </div>
+                <div class="option">
+                    <span>Mastercard</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz box footer -->
+
+        <footer>
+            <div class="total_que">
+                <p><span>2</span> Of <span>7</span> Questions </p>
+            </div>
+            <button class="next_btn"> NEXT </button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+
+    <div class="result_box">
+        <div class="icon">
+            <div class="icon"> 
+                <img src="../assets/images/altcoin.png" alt="crypto coin"></img>
+            </div>
+        </div>
+        <div class="complete_text">END OF LINE!</div>
+        <div class="score_text">
+            <p> You got <span>2</span> out of <span>7</span></p>
+        </div>
+        <div class="buttons">
+            <button class="restart">BULLISH!</button> 
+            <button class="quit">BEARISH</button>
+        </div>
+    </div>
+
+    <!-- Questions and Options only -->
+    <script src="assets/js/questions.js"></script>
+
+    <!-- Quiz script Codes -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+</body>
+</html>
