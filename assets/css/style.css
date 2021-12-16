@@ -51,7 +51,7 @@ body {
     outline: none;
     border: 1px solid #000000;
     border-radius: 5px;
-    background: rgb(250, 200, 0);
+    background: #ffd900;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -68,7 +68,7 @@ body {
 
 .info_box{
     max-width: 80vw;
-    background: rgb(250, 200, 0);
+    background: #ffd900;
     border: 3px solid #ff9900;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
