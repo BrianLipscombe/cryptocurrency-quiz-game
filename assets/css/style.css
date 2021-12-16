@@ -381,6 +381,13 @@ footer button:hover{
     transform: translate(-50%, -50%) scale(0.9);
     border: 1px solid #ffc400;
 }
+
+.result_box .icon{
+    font-size: 175px;
+    color: #ffd900;
+    margin-bottom: 10px;
+}
+
   
 .result_box .complete_text{
     font-size: 20px;
