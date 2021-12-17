@@ -3,7 +3,7 @@
 This is Brian Lipscombe's second Milestone Project at [Code Institute](https://codeinstitute.net). It was built using HTML5, CSS3, and JavaScript in Gitpod. It is designed with Code Institute's Assessment Handbook Project Idea 2 in mind, although it is not a memory game. 
 It is intended to be a simple, fun, interavtive quiz game that is easy to navigate on different size screens, with a total of 7 questions with 4 multiple-choice answers, of which only 1 is correct, revolving around the world of cryptocurrencies. 
 
-
+The website can be found [here.](https://brianlipscombe.github.io/cryptocurrency-quiz-game/)
 
 ## User Experience (UX)
 
@@ -89,8 +89,7 @@ All files and pages were validated by direct input with no syntax errors using:
 ### GitHub
 
 This project was deployed to the developer's respository page:
-https://github.com/BrianLipscombe/SkyViewMRI
-
+https://github.com/BrianLipscombe/cryptocurrency-quiz-game
 
 ## Credits
 
