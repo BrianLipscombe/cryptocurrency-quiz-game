@@ -1,7 +1,7 @@
 # Cryptocurrency Quiz Game Website
 
 This is Brian Lipscombe's second Milestone Project at [Code Institute](https://codeinstitute.net). It was built using HTML5, CSS3, and JavaScript in Gitpod. It is designed with Code Institute's Assessment Handbook Project Idea 2 in mind, although it is not a memory game. 
-It is intended to be a simple, fun, interavtive quiz game that is easy to navigate on different size screens, with a total of 7 questions with 4 multiple-choice answers, of which only 1 is correct, revolving around the world of cryptocurrencies. 
+It is intended to be a simple, fun, interavtive quiz game that is easy to navigate on different size screens, with a total of seven timed questions with four multiple-choice answers, of which only 1 is correct, revolving around the world of cryptocurrencies. 
 
 The website can be found [here.](https://brianlipscombe.github.io/cryptocurrency-quiz-game/)
 
@@ -34,7 +34,7 @@ The website can be found [here.](https://brianlipscombe.github.io/cryptocurrency
 
     2. Imagery
 
-        The background image is a rendering downloaded for free from VectorStock [here](https://www.vectorstock.com/royalty-free-vector/cpu-chip-with-bright-connections-green-vector-22525088) then further designed with additional layers using Adobe Photshop Elements Photo Editor. The cryptocurrency logos were obtained for free at designmodo [here.](https://designmodo.com/free-crypto-icons/) It is intended to appear as a magnified digital cryptocurrency networking circuit. The golden coin reward image at the end was obtained [here.](https://www.pikpng.com/transpng/hxRhmR/)
+        The background image is a rendering downloaded for free from VectorStock [here](https://www.vectorstock.com/royalty-free-vector/cpu-chip-with-bright-connections-green-vector-22525088) then further designed with additional layers using Adobe Photshop Elements Photo Editor. The cryptocurrency logos were obtained for free at designmodo [here.](https://designmodo.com/free-crypto-icons/) It is intended to appear as a magnified digital cryptocurrency networking circuit.
 
     3. Typography
 
@@ -72,6 +72,51 @@ The website can be found [here.](https://brianlipscombe.github.io/cryptocurrency
 * [Balsamiq](https://balsamiq.com/)
 
 ## Testing
+
+1. Manual Testing
+    * Buttons
+
+        - If INVEST button is clicked, the rules are shown;
+        - If the CASH OUT button is clicked, hide the info box, show the INVEST button;
+        - If the I'M IN button is clicked, hide the info box, show the quiz box;
+        - If NEXT button is clicked, hide current question, show next question. After the last question show the result box;
+        - If the BULLISH button is clicked, hide the result box, show the initial quiz box.
+        - If the BEARISH button is clicked, hide the result box, show the INVEST button.
+
+    * Quiz Box
+
+        - Quiz box timer text "Time:" changing to "Time Off" when the 20s are passed;
+        - Quiz box timer second counter start at 30 seconds and counts down to 0;
+        - Quiz box time line elongates from the left to the right and is synchronised with the counter;
+        - If the correct answer is selected the green chart up icon appears and the option box background color changes to green;
+        - If the incorrect answer is selected the red chart down icon appears and the option box background color changes pink;
+        - Correct answers shows automatically once time is expired;
+
+    * Result Box Text
+
+        - Any combination of correct or incorrect answers "END OF LINE!" text appears indicating completion;
+        - If the user scored less than 1 correct asnwer "YOU HAVE BEEN FORCEFULLY LIQUIDATED!!!" text appears;
+        - If the user scored more than 1 correct answers "Buy low and sell high, not the other way around!" text appears;
+        - If the user scored more than 5 correct answer "PARABOLIC ACTION TO THE MOON!!!" text appears;
+        - All functions are confirmed to work
+    
+    * Responsiveness
+
+        - This project is confirmed to be responsive on all standard screen sizes using the devtools device toolbar
+
+    * Browser Validation
+
+        - This project is confirmed to work with different browsers: Chrome and Internet Explorer
+
+2. Automated Testing
+
+    * Code Testing 
+
+        - This project has been tested using different browsers and different mobile devices such as iphone, Android, and laptops, as well as on a desktop computer.
+
+    * Lighthouse Auditing
+
+        - This project scores 100 for Accessibility and Best Practices
 
 All pages were tested on multiple resolutions for proper responsiveness.
 
