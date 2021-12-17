@@ -116,7 +116,7 @@ The website can be found [here.](https://brianlipscombe.github.io/cryptocurrency
 
     * Lighthouse Auditing
 
-        - This project scores 100 for Accessibility and Best Practices
+        - This project scores 100 for Accessibility and Best Practices for mobile devices, and 100 for Accessibility, Best Practices, and Performance for desktop devices
 
 All pages were tested on multiple resolutions for proper responsiveness.
 
