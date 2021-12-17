@@ -1,7 +1,7 @@
 # Cryptocurrency Quiz Game Website
 
 This is Brian Lipscombe's second Milestone Project at [Code Institute](https://codeinstitute.net). It was built using HTML5, CSS3, and JavaScript in Gitpod. It is designed with Code Institute's Assessment Handbook Project Idea 2 in mind, although it is not a memory game. 
-It is intended to be a simple, fun, interavtive quiz game that is easy to navigate on different size screens, with a total of 7 questions with 4 multiple-choice answers, of which only 1 is correct, revolving around the world of cryptocurrencies.
+It is intended to be a simple, fun, interavtive quiz game that is easy to navigate on different size screens, with a total of 7 questions with 4 multiple-choice answers, of which only 1 is correct, revolving around the world of cryptocurrencies. 
 
 
 
@@ -35,6 +35,10 @@ It is intended to be a simple, fun, interavtive quiz game that is easy to naviga
     2. Imagery
 
         The background image is a rendering downloaded for free from VectorStock [here](https://www.vectorstock.com/royalty-free-vector/cpu-chip-with-bright-connections-green-vector-22525088) then further designed with additional layers using Adobe Photshop Elements Photo Editor. The cryptocurrency logos were obtained for free at designmodo [here.](https://designmodo.com/free-crypto-icons/) It is intended to appear as a magnified digital cryptocurrency networking circuit. The golden coin reward image at the end was obtained [here.](https://www.pikpng.com/transpng/hxRhmR/)
+
+    3. Typography
+
+        The fonts are basic and easy to read. The buttons at the beginning and end of the quiz are labeled with text that correspond with market terminology i.e. instead of "start" the word "invest" is used, and instead of "play again" and "quit" the words "bullish" and "bearish" are used to to denote a positive or negative feeling toward the user to either play again or quit.
 
 * Wireframe
 
