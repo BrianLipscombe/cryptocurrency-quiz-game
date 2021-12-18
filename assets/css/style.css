@@ -1,3 +1,5 @@
+/* Portions of code borrowed from Youtube video "Create a Quiz App with Timer using HTML CSS & JavaScript | Quiz Web App using JavaScript" parts 1 & 2 on the Youtube channel CodingNepal at https://www.youtube.com/watch?v=pQr4O1OITJo&t=1324s as well as from Github repository https://github.com/HeleJ/quiz-game-about-Estonia as documented in this project's README */
+
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
@@ -455,4 +457,4 @@ footer button:hover{
         height:80vh;
         overflow:scroll;
     }
-};
+}

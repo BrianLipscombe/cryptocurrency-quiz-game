@@ -1,3 +1,7 @@
+/*jshint esversion: 6 */
+
+// Portions of code borrowed from Youtube video "Create a Quiz App with Timer using HTML CSS & JavaScript | Quiz Web App using JavaScript" parts 1 & 2 on the Youtube channel CodingNepal at https://www.youtube.com/watch?v=pQr4O1OITJo&t=1324s as well as from Github repository https://github.com/HeleJ/quiz-game-about-Estonia as documented in this project's README
+
 // Selecting required elements
 
 const start_btn = document.querySelector(".start_btn button");
